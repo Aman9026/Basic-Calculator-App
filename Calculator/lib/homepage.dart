@@ -86,12 +86,12 @@ class HomePageState extends State<HomePage> {
               children: <Widget>[
                 new MaterialButton(
                   child: new Text("+"),
-                  color: Colors.greenAccent,
+                  color: Colors.redAccent,
                   onPressed: doAdd,
                 ),
                 new MaterialButton(
                   child: new Text("-"),
-                  color: Colors.greenAccent,
+                  color: Colors.redAccent,
                   onPressed: doSub,
                 )
               ],
@@ -102,12 +102,12 @@ class HomePageState extends State<HomePage> {
               children: <Widget>[
                 new MaterialButton(
                   child: new Text("*"),
-                  color: Colors.greenAccent,
+                  color: Colors.redAccent,
                   onPressed: doMult,
                 ),
                 new MaterialButton(
                   child: new Text("/"),
-                  color: Colors.greenAccent,
+                  color: Colors.redAccent,
                   onPressed: doDiv,
                 ),
               ],
@@ -117,7 +117,7 @@ class HomePageState extends State<HomePage> {
               children: <Widget>[
                 new MaterialButton(
                   child: new Text("Clear"),
-                  color: Colors.greenAccent,
+                  color: Colors.redAccent,
                   onPressed: doClear,
                 ),
               ],
